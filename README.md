@@ -2,6 +2,7 @@
 
 Welcome! Here you will find all necessary information about projects such as how to propose projects, guidelines, recordings and more!
 
+This repository is currently under construction, so check back soon!
 
 ## Members
 
