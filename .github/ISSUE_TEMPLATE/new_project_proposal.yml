@@ -108,7 +108,7 @@ body:
       default: 0
     validations:
       required: true 
-    - type: dropdown
+  - type: dropdown
     id: project-type
     attributes:
       label: Project Type
@@ -155,4 +155,5 @@ body:
       description: By submitting this issue, you agree to have filled out all information to the best of your knowledge.
       options:
         - label: I agree
-          required: true
+    validations:
+      required: true
