@@ -39,6 +39,20 @@ body:
       description: Explain how the project aligns with the [NeoNephos goals as outlined in our charter.](https://cdn.platform.linuxfoundation.org/agreements/neonephos-foundation.pdf)
     validations:
       required: true      
+  - type: textarea
+    id: project-neonephos-benefits
+    attributes:
+      label: Benefit to NeoNephos
+      description: Detail how NeoNephos benefits from the project. Look at the existing NeoNephos ecosystem (e.g. Gardener) to see how your project fits there.
+    validations:
+      required: true   
+  - type: textarea
+    id: project-neonephos-benefits-2
+    attributes:
+      label: Benefit to Project
+      description: Detail how the project benefits from NeoNephos.
+    validations:
+      required: true
   - type: dropdown
     id: existing-project
     attributes:
@@ -102,21 +116,7 @@ body:
       label: Infrastructure Needs
       description: List any specific infrastructure requests besides what is normally provided by NeoNephos. These are normally items that could incur a cost on the foundation like providing servers for testing etc.
     validations:
-      required: false    
-  - type: textarea
-    id: project-neonephos-benefits
-    attributes:
-      label: Benefit to NeoNephos
-      description: Detail how NeoNephos benefits from the project. Look at the existing NeoNephos ecosystem (e.g. Gardener) to see how your project fits there.
-    validations:
-      required: true   
-  - type: textarea
-    id: project-neonephos-benefits-2
-    attributes:
-      label: Benefit to Project
-      description: Detail how the project benefits from NeoNephos.
-    validations:
-      required: true        
+      required: false            
   - type: dropdown
     id: project-license
     attributes:
