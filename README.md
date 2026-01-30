@@ -6,7 +6,7 @@ This repository is currently under construction, so check back soon!
 
 ## Members
 
-This repository is managed by the [NeoNephos Technical Advisory Council (TAC)](https://neonephos.org/technical_advisory_council). Its current members are:
+This repository is supervised by the [NeoNephos Technical Advisory Council (TAC)](https://neonephos.org/technical_advisory_council). Its current members are:
 
 |Representative|Role|
 |---|---|
