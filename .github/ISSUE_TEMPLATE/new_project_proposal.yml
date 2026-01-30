@@ -92,8 +92,8 @@ body:
     id: project-external-dependencies
     attributes:
       label: External Dependencies
-      description: Which external dependencies does your project rely on? Ideally, link the software bill of materials of the project's most significant repositories if available.
-      placeholder: Repository 1: Link to SBoM
+      description: Which external dependencies does the project rely on? Ideally, link the software bill of materials of the project's most significant repositories if available.
+      placeholder: Insert link to SBoM for repository one.
     validations:
       required: false 
   - type: textarea
