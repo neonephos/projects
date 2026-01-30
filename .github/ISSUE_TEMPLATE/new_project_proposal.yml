@@ -112,7 +112,7 @@ body:
     id: project-type
     attributes:
       label: Project Type
-      description: Is the project primarily a code project or a [specification](https://www.linuxfoundation.org/projects/standards). Note: Most projects are primarily code projects.
+      description: Is the project primarily a code project or a [specification](https://www.linuxfoundation.org/projects/standards). Note that Most projects are primarily code projects.
       multiple: true     
       options:
         - Code Project
