@@ -22,7 +22,7 @@ body:
     attributes:
       label: Mission Statement
       description: Briefly explain the purpose and scope of the project.
-      placeholder: The goal of the project is create an open-source cloud operating system that can be ran by any provider.
+      placeholder: The goal of the project is to create an open-source cloud operating system that can be run by any provider.
     validations:
       required: true
   - type: textarea
@@ -36,7 +36,7 @@ body:
     id: project-alignment-to-neonephos-mission
     attributes:
       label: Alignment to NeoNephos mission
-      description: Explain how the project aligns to the [NeoNephos goals as outlined in our charter.](https://cdn.platform.linuxfoundation.org/agreements/neonephos-foundation.pdf?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1755169332458.1755604645613.29&__hssc=81619592.2.1755604645613&__hsfp=1879682750)
+      description: Explain how the project aligns with the [NeoNephos goals as outlined in our charter.](https://cdn.platform.linuxfoundation.org/agreements/neonephos-foundation.pdf)
     validations:
       required: true      
   - type: dropdown
@@ -54,7 +54,7 @@ body:
     id: project-leadership
     attributes:
       label: Project Leadership
-      description: List the current project leadership team. This could be a list of all GitHub maintainers for example. If you have a Technical Steering Committee list all members and their role.
+      description: List the current project leadership team. This could be a list of all GitHub maintainers for example. If you have a Technical Steering Committee, list all members and their roles.
       placeholder: Jamal Jackson — TSC Chairperson
     validations:
       required: true         
@@ -64,14 +64,38 @@ body:
       label: Project Sponsors
       description: List any active sponsoring organizations or other external key contributing individuals to the project.
     validations:
-      required: false       
+      required: false   
+  - type: textarea
+    id: project-release-methodology
+    attributes:
+      label: Release Methodology
+      description: Briefly describe the release lifecycle and management of the project. For example, are you using GitHub tags or releases to indicate significant commits? Is the code usually uploaded to package managers like Cargo?
+      placeholder: We use semantic versioning and indicate significant releases via the GitHub release feature.
+    validations:
+      required: false 
   - type: textarea
     id: project-infrastructure
     attributes:
       label: Current Infrastructure
-      description: Detail any existing public infrastructure, including GitHub repositories, websites, mailing lists and social media accounts.
+      description: Detail any existing public infrastructure, including GitHub repositories, websites, mailing lists, and social media accounts.
     validations:
-      required: true   
+      required: true  
+  - type: textarea
+    id: project-security-response
+    attributes:
+      label: Security Response
+      description: How does the project respond to security incidents? 
+      placeholder: We receive security reports via GitHub's vulnerability reporting feature and by mail through security@project.org. Our dedicated security officer Frank Miller handles these requests. 
+    validations:
+      required: false 
+  - type: textarea
+    id: project-external-dependencies
+    attributes:
+      label: External Dependencies
+      description: Which external dependencies does your project rely on? Ideally, link the software bill of materials of the project's most significant repositories if available.
+      placeholder: Repository 1: Link to SBoM
+    validations:
+      required: false 
   - type: textarea
     id: project-infrastructure-requests
     attributes:
@@ -83,7 +107,7 @@ body:
     id: project-neonephos-benefits
     attributes:
       label: Benefit to NeoNephos
-      description: Detail how NeoNephos benefits from the project. Look at the existing NeoNephos ecosystem (e.g. Gardener) to see how your projects fits there.
+      description: Detail how NeoNephos benefits from the project. Look at the existing NeoNephos ecosystem (e.g. Gardener) to see how your project fits there.
     validations:
       required: true   
   - type: textarea
@@ -97,13 +121,13 @@ body:
     id: project-license
     attributes:
       label: Current Project License
-      description: List the current license of all important repositories in the project. If your project has multiple licenses, please select one of the Other options.
+      description: List the current license of all important repositories in the project. If your project has multiple licenses, please select one of the "Other" options.
       multiple: true     
       options:
         - Apache 2.0
         - MIT
         - Other permissive licenses
-        - Other nonpermissive licenses
+        - Other non-permissive licenses
         - Other
       default: 0
     validations:
@@ -112,8 +136,8 @@ body:
     id: project-type
     attributes:
       label: Project Type
-      description: Is the project primarily a code project or a [specification](https://www.linuxfoundation.org/projects/standards). Note that Most projects are primarily code projects.
-      multiple: true     
+      description: Is the project primarily a code project or a [specification](https://www.linuxfoundation.org/projects/standards)? Note that most projects are primarily code projects.
+      multiple: false     
       options:
         - Code Project
         - Specification or Standard
@@ -138,7 +162,7 @@ body:
     id: project-trademark-transfer
     attributes:
       label: Trademark Inventory
-      description: Please list all trademark and assets you intend to transfer to LFEU.
+      description: Please list all trademarks and assets you intend to transfer to LFEU.
     validations:
       required: true 
   - type: textarea
