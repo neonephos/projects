@@ -18,7 +18,7 @@ This repository is supervised by the [NeoNephos Technical Advisory Council (TAC)
 | [Simon Heimler](https://github.com/Fannon)          | TSC Chairperson Open Resource Discovery   |
 | [Ivo Gosemann](https://github.com/IvoGoman)           | TSC Chairperson Greenhouse                |
 | [Jakob Möller](https://github.com/jakobmoellerdev)           | TSC Chairperson Open Component Model      |
-| [Johannes Scheerer](https://github.com/ScheererJ)      | TSC Chairperson Gardener                  |
+| [Johannes Scheerer](https://github.com/ScheererJ)      | TSC Chairperson Gardener & TAC Vice Chairperson                  |
 | [Andre Russ](https://github.com/gehoern)          | TSC Chairperson Garden Linux              |
 | [Bastian Echterhoelter](https://github.com/nexus49)  | TSC Chairperson OpenMFP                   |
 | [Mirza Kopic](https://github.com/mirzakopic)            | TSC Chairperson Platform Mesh             |
