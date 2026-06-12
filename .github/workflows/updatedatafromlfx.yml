@@ -1,0 +1,22 @@
+name: Update Data From LFX
+on:
+  schedule:
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jmertic/lfx-tac-actions@main
+        with:
+          updateprojects: false
+          updatetacmembers: false
+          updatetacagendaitems: false
+          updateclomonitor: false
+          updatedecks: false
+          updatecharters: true
+          slug: neonephos-foundation
+        env:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          ref: ${{ github.ref }}
