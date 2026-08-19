@@ -10,38 +10,23 @@ This repository is supervised by the [NeoNephos Technical Advisory Council (TAC)
 
 |Representative|Role|
 |---|---|
-| [Florian Mueller](https://github.com/fmui)  | TAC Chairperson & SAP TAC Premier Rep.  |
-| [Tobias Deppe](https://github.com/TobiasDeppeTSI)  | T-Systems TAC Premier Rep.  |
-| [Martin Schüßler](https://github.com/c0ffee)  | STACKIT TAC Premier Rep.  |
-| [Michael Schmidt](https://github.com/BugRoger)        | TSC Chairperson CobaltCore                |
-| [Andreas Fritzler](https://github.com/afritzler)       | TSC Chairperson IronCore                  |
-| [Simon Heimler](https://github.com/Fannon)          | TSC Chairperson Open Resource Discovery   |
-| [Ivo Gosemann](https://github.com/IvoGoman)           | TSC Chairperson Greenhouse                |
-| [Jakob Möller](https://github.com/jakobmoellerdev)           | TSC Chairperson Open Component Model      |
-| [Johannes Scheerer](https://github.com/ScheererJ)      | TSC Chairperson Gardener & TAC Vice Chairperson                  |
-| [Andre Russ](https://github.com/gehoern)          | TSC Chairperson Garden Linux              |
-| [Bastian Echterhoelter](https://github.com/nexus49)  | TSC Chairperson OpenMFP                   |
-| [Mirza Kopic](https://github.com/mirzakopic)            | TSC Chairperson Platform Mesh             |
-| [Maximilian Braun](https://github.com/maximilianbraun)       | TSC Chairperson OpenMCP                   |
-| [Philipp Pracht](https://github.com/hardl) | TSC Chairperson Luigi[^1]                 |
-| [Roberto Querio](https://github.com/rquerio)            | TSC Chairperson Katalis                   |
-
-[^1]: Luigi is in process of being transferred to NeoNephos.
-
-## Projects
-
-Projects are approved as per the project lifecycle guidelines, which will be released soon. The current NeoNephos projects and their lifecycle stages are listed below.
-
-|Name|Stage|
-|---|---|
-|[Open Resource Discovery](https://github.com/open-resource-discovery/specification) |To be determined| 
-|[Garden Linux](https://github.com/gardenlinux/)|To be determined| 
-|[Gardener](https://github.com/gardener/)|To be determined| 
-|[Open Component Model](https://github.com/open-component-model/)|To be determined| 
-|[Open Managed Control Plane](https://github.com/openmcp-project)|To be determined| 
-|[Open Micro Front End Platform](https://github.com/openmfp)|To be determined| 
-|[CobaltCore](https://github.com/cobaltcore-dev)|To be determined| 
-|[IronCore](https://github.com/ironcore-dev) |To be determined| 
+| [Andre Russ](https://github.com/gehoern) | TSC Chairperson Garden Linux |
+| [Andreas Fritzler](https://github.com/afritzler) | TSC Chairperson IronCore |
+| [Bastian Echterhoelter](https://github.com/nexus49) | TSC Chairperson OpenMFP |
+| [Florian Mueller](https://github.com/fmui) | TAC Chairperson & SAP TAC Premier Rep. |
+| [Uwe Mayer](https://github.com/uwe-mayer) | TSC Chairperson Greenhouse |
+| [Jakob Möller](https://github.com/jakobmoellerdev) | TSC Chairperson Open Component Model |
+| [Johannes Scheerer](https://github.com/ScheererJ) | TSC Chairperson Gardener & TAC Vice Chairperson |
+| [Maximilian Braun](https://github.com/maximilianbraun) | TSC Chairperson OpenMCP |
+| [Michael Schmidt](https://github.com/BugRoger) | TSC Chairperson CobaltCore |
+| [Meng Li Wong](https://github.com/mengliwg) | TSC Chairperson Platform Mesh |
+| [Martin Schüßler](https://github.com/c0ffee) | STACKIT TAC Premier Rep. |
+| [Nicolae Nicora](https://github.com/nnicora) | TSC Chairperson OpenKCM |
+| [Niklas Voss](https://github.com/trevex) | BWI TAC Premier Rep. |
+| [Philipp Pracht](https://github.com/hardl) | TSC Chairperson Luigi |
+| [Roberto Querio](https://github.com/rquerio) | TSC Chairperson Katalis |
+| [Simon Heimler](https://github.com/Fannon) | TSC Chairperson Open Resource Discovery |
+| [Tobias Deppe](https://github.com/TobiasDeppeTSI) | T-Systems TAC Premier Rep. |
 |[Greenhouse](https://github.com/cloudoperators) |To be determined| 
 |[Platform Mesh](https://github.com/platform-mesh) |To be determined| 
 |[Katalis](https://github.com/neonephos-katalis/opg-ewbi-operator) |To be determined| 
