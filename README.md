@@ -27,7 +27,4 @@ This repository is supervised by the [NeoNephos Technical Advisory Council (TAC)
 | [Roberto Querio](https://github.com/rquerio) | TSC Chairperson Katalis |
 | [Simon Heimler](https://github.com/Fannon) | TSC Chairperson Open Resource Discovery |
 | [Tobias Deppe](https://github.com/TobiasDeppeTSI) | T-Systems TAC Premier Rep. |
-|[Greenhouse](https://github.com/cloudoperators) |To be determined| 
-|[Platform Mesh](https://github.com/platform-mesh) |To be determined| 
-|[Katalis](https://github.com/neonephos-katalis/opg-ewbi-operator) |To be determined| 
 
