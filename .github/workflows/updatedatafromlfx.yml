@@ -6,6 +6,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # The action commits the refreshed charters and opens a pull request for it.
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: jmertic/lfx-tac-actions@60c5cb28ac5ea2f02d8919573662900d9e23828f # 20261030
         with:
