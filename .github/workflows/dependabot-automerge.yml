@@ -14,15 +14,11 @@ jobs:
     if: github.actor == 'dependabot[bot]'
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-
-      - name: Approve PR
-        run: |
-          gh pr review --approve "${{ github.event.pull_request.number }}"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      # There is deliberately no "gh pr review --approve" step here: GITHUB_TOKEN
+      # must not be able to approve pull requests (SEC §9.2, ORG-WORKFLOW-PR-APPROVAL),
+      # and the org has "Allow GitHub Actions to create and approve pull requests"
+      # disabled. Auto-merge is queued below and fires once a human approves.
+      # Please do not re-add an approval step.
       - name: Enable auto-merge
         run: |
           gh pr merge \
